@@ -11,3 +11,12 @@ got:
   contactDetails:
     name: "Jon Snow"
     email: "jon@got.com"
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://locahost:8070/eureka/
