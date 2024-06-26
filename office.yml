@@ -14,3 +14,12 @@ office:
   contactDetails:
     name: "Micheal Scott"
     email: "micheal@office.com"
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://locahost:8070/eureka/
