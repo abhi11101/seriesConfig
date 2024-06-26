@@ -1,6 +1,6 @@
 spring:
   datasource:
-      url: jdbc:mysql://localhost:3306/episodedb4567
+      url: jdbc:mysql://localhost:3306/episodedb
       username: root
       password: 11101996
   jpa:
